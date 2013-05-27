@@ -2,14 +2,33 @@
   "name": "tip-component",
   "description": "Tip component",
   "version": "0.2.0",
-  "keywords": ["tip", "component"],
+  "keywords": [
+    "tip",
+    "component"
+  ],
   "dependencies": {
-    "inherit-component": "*",
-    "emitter-component": "*",
-    "jquery-component": "*"
+    "emitter": "component/emitter",
+    "inherit": "component/inherit",
+    "each": "juliangruber/each#browserify",
+    "query": "component/query",
+    "domify": "component/domify",
+    "classes": "juliangruber/classes#browserify",
+    "css": "component/css",
+    "events": "juliangruber/events-1#browserify",
+    "bind": "component/bind"
+  },
+  "browser": {
+    "inherit": "node_modules/inherit-component/index.js",
+    "each": "node_modules/each-component/index.js",
+    "classes": "node_modules/classes-component/index.js",
+    "css": "node_modules/css-component/index.js",
+    "event": "node_modules/events-component-2/index.js",
+    "bind": "node_modules/bind-component/index.js"
   },
   "component": {
-    "styles": ["tip.css"],
+    "styles": [
+      "tip.css"
+    ],
     "scripts": {
       "tip/index.js": "index.js",
       "tip/template.js": "template.js"
