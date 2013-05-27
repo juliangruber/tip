@@ -14,7 +14,7 @@
     "domify": "component/domify",
     "classes": "juliangruber/classes#browserify",
     "css": "component/css",
-    "events": "juliangruber/events-1#browserify",
+    "event": "component/event",
     "bind": "component/bind"
   },
   "browser": {
@@ -22,7 +22,7 @@
     "each": "node_modules/each-component/index.js",
     "classes": "node_modules/classes-component/index.js",
     "css": "node_modules/css-component/index.js",
-    "event": "node_modules/events-component-2/index.js",
+    "event": "node_modules/event-component/index.js",
     "bind": "node_modules/bind-component/index.js"
   },
   "component": {
